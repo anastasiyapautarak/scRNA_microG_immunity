@@ -143,12 +143,10 @@ Loads the annotated UMAP checkpoint and runs:
 - **Gene Ontology enrichment** (top 100 differentially expressed genes, Enrichr API) → `figures/gene_ontology/`
 - **Jaccard index** of active gene sets between µG and 1G per cell type
 - **Stress gene scoring** (HIF1A, HSP90AA1, HSPA1A, SOD2, etc.) with UMAP and violin plots
-- **PAGA** trajectory graph + **DPT** (Diffusion Pseudotime)
 - **Volcano plot** (Wilcoxon test, µG vs 1G, FDR < 0.05, |log2FC| > 1)
 - **DGE balance** (up/downregulated genes per cell type in µG)
-- **Cell-cell communication** via LIANA `rank_aggregate`
 
-> ⚠️ Notebook 3 is computationally intensive. Recommended minimum: 32 GB RAM, 8 CPU cores. LIANA runs with `n_jobs=1` to avoid memory crashes on large datasets.
+> ⚠️ Notebook 3 is computationally intensive. Recommended minimum: 32 GB RAM, 8 CPU cores.
 
 ---
 
