@@ -1,0 +1,15 @@
+# Dane — za duże na GitHub
+data_checkpoints/
+*.h5ad
+
+# Wykluczone foldery figur
+figures/gene_ontology/
+figures/wyniki_ekspresji/
+
+# Wykluczone pliki figur
+figures/anotacje_celltypist.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

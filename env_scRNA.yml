@@ -1,0 +1,64 @@
+name: scRNA_microG_immunity
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # Python
+  - python=3.11
+
+  # Analiza scRNA-seq
+  - scanpy>=1.9
+  - anndata>=0.9
+
+  # Numeryka i data science
+  - numpy>=1.24
+  - scipy>=1.10
+  - pandas>=2.0
+  - scikit-learn>=1.2
+  - statsmodels>=0.14
+  - numba>=0.57
+
+  # Wizualizacja
+  - matplotlib>=3.7
+  - seaborn>=0.12
+
+  # Graf / klasteryzacja (wymagane przez PAGA, Leiden, Louvain)
+  - python-igraph>=0.10
+  - leidenalg>=0.9
+  - louvain>=0.8
+
+  # UMAP
+  - umap-learn>=0.5
+  - pynndescent>=0.5
+
+  # Pliki HDF5 (.h5ad)
+  - h5py>=3.8
+
+  # Narzędzia ogólne
+  - tqdm>=4.65
+  - natsort>=8.3
+  - networkx>=3.1
+  - packaging>=23
+
+  # Jupyter
+  - jupyterlab>=4.0
+  - ipykernel>=6.20
+  - ipython>=8.10
+  - pip
+
+  - pip:
+      # setuptools<71 wymagane przez pakiet louvain (używa pkg_resources)
+      - setuptools<71
+
+      # Gene Ontology / wzbogacanie szlaków
+      - gseapy>=1.0
+
+      # Komunikacja międzykomórkowa
+      - liana>=1.0
+
+      # Anotacja typów komórek
+      - celltypist>=1.5
+
+      # Etykiety na wykresach (Volcano Plot)
+      - adjusttext>=0.8
