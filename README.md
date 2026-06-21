@@ -28,9 +28,6 @@ This study investigates how microgravity conditions affect the transcriptomic la
 - Differential gene expression (Wilcoxon test, Volcano plots)
 - Gene Ontology enrichment analysis (GSEApy / Enrichr)
 - Jaccard index-based transcriptomic variability per cell type
-- Cellular stress gene scoring (`sc.tl.score_genes`)
-- Trajectory analysis (PAGA + Diffusion Pseudotime)
-- Cell-cell communication network (LIANA `rank_aggregate`)
 
 ---
 
