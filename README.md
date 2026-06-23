@@ -37,7 +37,7 @@ This study investigates how microgravity conditions affect the transcriptomic la
 .
 ├── 1_data_and_filtration.ipynb   # QC, normalization, PCA, cell type annotation
 ├── 2_umap_analisys.ipynb         # UMAP, clustering, batch effect, pseudobulk PCA
-├── 3_analiza_ekspresji.ipynb     # DGE, GO, Jaccard, stress score, PAGA, LIANA
+├── 3_expression_analysis.ipynb   # DGE, GO, Jaccard, stress score, PAGA, LIANA
 ├── env_scRNA.yml                 # Conda environment specification
 ├── figures/                      # Output figures (PNG)
 └── README.md
@@ -135,7 +135,7 @@ Loads the QC checkpoint and computes:
 
 Saves checkpoint: `data_checkpoints/dane_po_anotacji_z_umap.h5ad`
 
-### Notebook 3 — `3_analiza_ekspresji.ipynb`
+### Notebook 3 — `3_expression_analysis.ipynb`
 
 Loads the annotated UMAP checkpoint and runs:
 
