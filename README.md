@@ -15,9 +15,9 @@ This study investigates how microgravity conditions affect the transcriptomic la
 
 | Condition | Gravity | Stimulation |
 |-----------|---------|-------------|
-| `1G_stim` | Normal (1G) | PHA-stimulated |
+| `1G_stim` | Normal (1G) | R848-stimulated (TLR7/8 agonist) |
 | `1G_unstim` | Normal (1G) | Unstimulated |
-| `uG_stim` | Microgravity (µG) | PHA-stimulated |
+| `uG_stim` | Microgravity (µG) | R848-stimulated (TLR7/8 agonist) |
 | `uG_unstim` | Microgravity (µG) | Unstimulated |
 
 **Key analyses performed:**
